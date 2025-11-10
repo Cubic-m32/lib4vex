@@ -1,0 +1,19 @@
+Source: lib4vex
+Section: unknown
+Priority: optional
+Maintainer: Arduinum <arduinum628-trixie@unknown>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/lib4vex
+#Vcs-Git: https://salsa.debian.org/debian/lib4vex.git
+
+Package: lib4vex
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
