@@ -14,7 +14,7 @@ Depends:
  ${misc:Depends}, 
  ${python3:Depends},
  python3,
- python3-csaf
+ python3-csaf-tool
 Description: Library to parse and generate VEX documents (OpenVEX, CycloneDX, CSAF)
  Lib4VEX is a Python library for creating, parsing, and extracting vulnerability
  information from VEX documents. It supports multiple formats including OpenVEX,
