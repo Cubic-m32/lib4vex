@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=lib4vex
+export PYBUILD_DESTDIR=$(CURDIR)/debian/python3-lib4vex
+export PYBUILD_INSTALL_ARGS=--install-lib=/usr/lib/python3/dist-packages
+
+%:
+	dh $@ --buildsystem=pybuild --with=python3

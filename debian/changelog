@@ -1,0 +1,8 @@
+lib4vex (0.2.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1120521)
+  * Imported upstream version 0.2.1
+  * Built for internal use and preparation for Debian contribution
+  * No changes to upstream code
+
+ -- Eugene Kaddo <arduinum628@gmail.com>  Mon, 10 Nov 2025 20:09:19 +0300
